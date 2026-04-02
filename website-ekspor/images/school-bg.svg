@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffefef"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#fca5a5"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8102e"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="920" cy="160" r="90" fill="#fed7d7" opacity="0.8"/>
+  <path d="M220 660 H980 V420 L700 240 L420 420 Z" fill="url(#building)"/>
+  <path d="M420 420 L700 240 L980 420 H420 Z" fill="url(#roof)"/>
+  <rect x="300" y="520" width="120" height="140" rx="20" fill="#ffffff" opacity="0.5"/>
+  <rect x="480" y="520" width="120" height="140" rx="20" fill="#ffffff" opacity="0.5"/>
+  <rect x="660" y="520" width="120" height="140" rx="20" fill="#ffffff" opacity="0.5"/>
+  <rect x="840" y="520" width="120" height="140" rx="20" fill="#ffffff" opacity="0.5"/>
+  <rect x="520" y="460" width="160" height="80" rx="24" fill="#ffffff" opacity="0.55"/>
+  <circle cx="300" cy="700" r="80" fill="#fbbf24" opacity="0.4"/>
+  <circle cx="960" cy="700" r="70" fill="#fbbf24" opacity="0.35"/>
+</svg>
